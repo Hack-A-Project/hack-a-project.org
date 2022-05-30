@@ -1,36 +1,43 @@
 {
-  "name": "hack-a-project.org",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "webpack serve --config webpack.config.js --env env=development",
-    "build": "webpack --config webpack.config.js --env env=production"
-  },
-  "repository": "git@github.com:Hack-A-Project/hack-a-project.org.git",
-  "author": "prince-ao <princead@tutanota.com>",
-  "license": "MIT",
-  "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.17.6",
-    "@babel/core": "^7.17.8",
-    "@babel/plugin-transform-runtime": "^7.17.0",
-    "@babel/preset-env": "^7.16.11",
-    "@babel/preset-react": "^7.16.7",
-    "@babel/preset-typescript": "^7.16.7",
-    "@babel/runtime": "^7.17.8",
-    "@types/react": "^17.0.41",
-    "@types/react-dom": "^17.0.14",
-    "babel-loader": "^8.2.3",
-    "clean-webpack-plugin": "^4.0.0",
-    "css-loader": "^6.7.1",
-    "html-webpack-plugin": "^5.5.0",
-    "style-loader": "^3.3.1",
-    "typescript": "^4.6.2",
-    "webpack": "^5.70.0",
-    "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.7.4"
-  }
+	"name": "v",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@testing-library/jest-dom": "^5.16.4",
+		"@testing-library/react": "^13.3.0",
+		"@testing-library/user-event": "^13.5.0",
+		"@types/jest": "^27.5.1",
+		"@types/node": "^16.11.36",
+		"@types/react": "^18.0.9",
+		"@types/react-dom": "^18.0.5",
+		"react": "^18.1.0",
+		"react-dom": "^18.1.0",
+		"react-scripts": "5.0.1",
+		"typescript": "^4.7.2",
+		"web-vitals": "^2.1.4"
+	},
+	"scripts": {
+		"start": "BROWSER=none react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
 }
