@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Main, What, Events } from "./components"
+import { Header, Main, What, Events, Sponsors, FAQ, Team, Contact, Footer } from "./components"
 
 // Add prior winners list
 const App = () => {
@@ -10,6 +10,11 @@ const App = () => {
         <Main />
         <What />
         <Events />
+        <Sponsors />
+        <FAQ />
+        <Team />
+        <Contact />
+        <Footer />
       </div>
     </div>
   );
