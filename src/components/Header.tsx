@@ -1,17 +1,17 @@
 import React from 'react'
+import logo from "../assets/hap.png"
 
 const header = () => {
   return (
     <div>
-      <div>
-        <img src="" alt="" />
+      <nav>
+        <img src={logo} alt="Hack-A-Project Logo" />
         <ul>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">Our Team</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact Us</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
   )
 }

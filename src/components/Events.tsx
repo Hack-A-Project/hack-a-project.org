@@ -4,6 +4,7 @@ import events from "../data/events.json"
 const Events = () => {
   return (
     <div>
+      <div id="events" />
       <h1>Events</h1>
       {events.events.map(({ date, title, description, link }) => {
         return (

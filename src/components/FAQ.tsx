@@ -3,7 +3,7 @@ import React from 'react'
 const FAQ = () => {
   return (
     <div>
-      <h1>FAQ</h1>
+      <h1 id="faq">FAQ</h1>
       {/* Note to self: During css integration if details doesn't work, use javascript */}
       <div>
         <details>

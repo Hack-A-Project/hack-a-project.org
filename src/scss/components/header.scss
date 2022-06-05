@@ -1,0 +1,42 @@
+@import '../common/_variables.scss';
+@import '../common/_fonts.scss';
+
+nav {
+	background-color: $main-color0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	position: fixed;
+
+	ul {
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+		display: flex;
+		justify-content: space-evenly;
+		margin-left: 20px;
+		margin-top: 25px;
+		width: 500px;
+
+		li {
+			display: inline;
+
+			a {
+				text-decoration: none;
+				color: $main-color4;
+				font-family: 'Orbitron';
+				font-size: 20px;
+
+				&:hover {
+					color: $main-color5;
+				}
+			}
+		}
+	}
+
+	img {
+		width: 70px;
+		height: 70px;
+	}
+}
