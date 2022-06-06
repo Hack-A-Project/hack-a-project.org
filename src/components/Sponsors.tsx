@@ -1,10 +1,10 @@
 import React from 'react'
-import github from "../assets/GitHub_Logo.png"
+import github from "../assets/github.png"
 
 const Sponsors = () => {
   return (
-    <div>
-      <h1>Our Sponsors</h1>
+    <div className="sponsors">
+      <h1 className="title">Our Sponsors</h1>
       <div>
         <img src={github} alt="github logo" />
       </div>
