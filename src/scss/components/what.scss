@@ -1,0 +1,19 @@
+@import '../common/variables';
+@import '../common/fonts';
+
+.what {
+	margin-top: 150px;
+	margin-left: 30px;
+	margin-bottom: 40px;
+
+	h1 {
+		font-family: 'Orbitron';
+		font-size: 60px;
+		margin-bottom: 10px;
+	}
+
+	p {
+		font-family: 'Lato';
+		font-size: 20px;
+	}
+}

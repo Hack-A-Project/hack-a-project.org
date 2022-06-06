@@ -1,3 +1,9 @@
 @import './components/header.scss';
 @import './pages/app.scss';
 @import './components/main.scss';
+@import './common/variables';
+@import './components/what.scss';
+
+* {
+	color: $main-color4;
+}
