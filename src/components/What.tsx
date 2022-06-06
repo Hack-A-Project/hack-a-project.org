@@ -4,7 +4,7 @@ const What = () => {
   return (
     <div className="what">
       <h1>What's Hack-A-Project?</h1>
-      <p>A CUNY based club that organizes various collaborative, project and technology based events for a diverse community.</p>
+      <p>Hack-A-Project is a CUNY based club that organizes various collaborative, project and technology based events for a diverse community.</p>
     </div>
   )
 }

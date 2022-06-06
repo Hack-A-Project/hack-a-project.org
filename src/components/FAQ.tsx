@@ -50,6 +50,10 @@ const FAQ = () => {
           <summary>How many members do we have?</summary>
           <p>We currently have over 100 members in our club!</p>
         </details>
+        <details>
+          <summary>What should I do if I my question is not answered here?</summary>
+          <p>Email us at hackaprojectcsi@gmail.com.</p>
+        </details>
       </div>
     </div>
   )

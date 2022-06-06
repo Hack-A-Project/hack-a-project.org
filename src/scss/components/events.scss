@@ -1,0 +1,37 @@
+@import '../common/_variables.scss';
+@import '../common/_fonts.scss';
+
+.eventsContainer {
+	margin-left: 30px;
+	margin-top: 160px;
+	display: flex;
+	flex-direction: column;
+
+	.title {
+		align-self: center;
+		font-family: 'Orbitron';
+		font-size: 60px;
+	}
+
+	.eventWrapper {
+		display: flex;
+		flex-direction: row;
+
+		.date {
+			margin-bottom: 30px;
+			margin-right: 20px;
+			width: 60px;
+			font-family: 'Orbitron';
+		}
+
+		.title {
+			font-family: 'Orbitron';
+			font-size: 20px;
+
+			&:hover {
+				cursor: pointer;
+				text-decoration: underline;
+			}
+		}
+	}
+}

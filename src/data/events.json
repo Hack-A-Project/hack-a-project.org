@@ -3,19 +3,19 @@
 		{
 			"date": "AUG 26, 2022",
 			"title": "Club Meeting",
-			"description": "The first club meeting of the year.",
+			"description": "The first club meeting of the year!",
 			"link": ""
 		},
 		{
 			"date": "SEP 02, 2022 - SEP 04, 2022",
 			"title": "Hack-CSI",
-			"description": "third annual hack-csi hackathon.",
+			"description": "Third annual hack-csi hackathon.",
 			"link": ""
 		},
 		{
 			"date": "SEP 09, 2022",
-			"title": "Leetcode Compatition",
-			"description": "Collaborative leetcode compatition.",
+			"title": "Leetcode Competition",
+			"description": "Collaborative leetcode competition.",
 			"link": ""
 		}
 	]

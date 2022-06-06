@@ -9,6 +9,7 @@ const App = () => {
       <div className="innerBackground">
         <Main />
         <What />
+        <div id="events" />
         <Events />
         <Sponsors />
         <FAQ />
