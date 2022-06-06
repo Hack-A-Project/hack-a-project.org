@@ -5,7 +5,7 @@ const header = () => {
   return (
     <div>
       <nav>
-        <img src={logo} alt="Hack-A-Project Logo" />
+        <img onClick={() => window.scrollTo(0, 0)} src={logo} alt="Hack-A-Project Logo" />
         <ul>
           <li><a href="#events">Events</a></li>
           <li><a href="#faq">FAQ</a></li>
