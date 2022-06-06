@@ -4,9 +4,9 @@ import { Header, Main, What, Events, Sponsors, FAQ, Team, Contact, Footer } from
 // Add prior winners list
 const App = () => {
   return (
-    <div>
-      <div>
-        <Header />
+    <div className="outerBackground">
+      <Header />
+      <div className="innerBackground">
         <Main />
         <What />
         <Events />
