@@ -1,28 +1,24 @@
 import React from 'react'
+import team from '../data/team.json'
 
 const Team = () => {
   return (
-    <div>
-      <h1>Our Team</h1>
-      <div>
-        <div>
-          <div>
-            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEH-fdk3dLGWQ/profile-displayphoto-shrink_800_800/0/1649192894289?e=1659571200&v=beta&t=hAK22Q3AlUwiaSpaQ6q_ZDEnb3CGqp5XyviW3U53nM8" alt="" />
-          </div>
-          <div>
-            <h2>Prince Addo</h2>
-            <p>President</p>
-          </div>
-        </div>
-        <div>
-          <div>
-            <img src="https://avatars.githubusercontent.com/u/75499553?v=4" alt="" />
-          </div>
-          <div>
-            <h2>Adam Kostandy</h2>
-            <p>Vice President</p>
-          </div>
-        </div>
+    <div className="teamContainer">
+      <h1 className="title">Our Team</h1>
+      <div className="headWrapper">
+        {team.heads.map(({ image, name, title }) => {
+          return (
+            <div>
+              <div>
+                <img src={image} alt="" />
+              </div>
+              <div>
+                <h2>{name}</h2>
+                <p>{title}</p>
+              </div>
+            </div>
+          )
+        })}
       </div>
     </div>
   )

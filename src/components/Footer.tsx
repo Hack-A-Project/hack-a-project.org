@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-      <p>© Copyright {new Date().getFullYear()} Hack-A-Project</p>
+    <div className="footer">
+      <p>© Copyright {new Date().getFullYear()} <a href="https://github.com/Hack-A-Project" target="_blank" rel="noreferrer">Hack-A-Project</a></p>
     </div>
   )
 }

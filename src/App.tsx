@@ -15,6 +15,7 @@ const App = () => {
         <div id="faq" />
         <FAQ />
         <Team />
+        <div id="contact" />
         <Contact />
         <Footer />
       </div>

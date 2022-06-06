@@ -1,0 +1,20 @@
+@import '../common/_variables.scss';
+@import '../common/_fonts.scss';
+
+.contact {
+	margin-top: 200px;
+	margin-left: 50px;
+
+	.title {
+		align-self: center;
+		font-family: 'Orbitron';
+		font-size: 60px;
+	}
+
+	img {
+		margin-left: 20px;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}

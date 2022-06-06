@@ -1,0 +1,21 @@
+@import '../common/_variables.scss';
+@import '../common/_fonts.scss';
+
+.teamContainer {
+	display: flex;
+	flex-direction: column;
+	margin-top: 150px;
+
+	.title {
+		align-self: center;
+		font-family: 'Orbitron';
+		font-size: 60px;
+	}
+
+	.headWrapper {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		margin-top: 75px;
+	}
+}

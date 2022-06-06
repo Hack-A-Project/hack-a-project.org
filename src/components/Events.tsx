@@ -4,7 +4,7 @@ import events from "../data/events.json"
 const Events = () => {
   return (
     <div className="eventsContainer">
-      <h1 className="title">Events</h1>
+      <h1 className="title">Events(2022)</h1>
       {events.events.map(({ date, title, description, link }) => {
         return (
           <div className="eventWrapper">
@@ -13,7 +13,7 @@ const Events = () => {
             </div>
             <div>
               <div className="title" onClick={() => window.open(link ? link : "https://csi.campuslabs.com/engage/organization/hack_a_project")}>{title}</div>
-              <div>{description}</div>
+              <div className="description">{description}</div>
             </div>
           </div>
         )
