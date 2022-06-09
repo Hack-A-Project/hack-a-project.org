@@ -27,7 +27,7 @@
 	}
 
 	img {
-		width: 35%;
+		width: 600px;
 		align-self: center;
 		margin-top: 40px;
 	}
@@ -35,18 +35,59 @@
 		background-color: $main-color7;
 		border: none;
 		color: $main-color4;
-		width: 300px;
-		height: 50px;
+		width: 600px;
+		height: 70px;
 		border-radius: 30px;
 		box-shadow: 0px 0px 12px $main-color7;
-		font-size: 30px;
+		text-align: center;
+		font-size: 50px;
 		align-self: center;
-		font-family: 'ZCOOL';
+		font-family: 'Anton';
 
 		&:hover {
 			cursor: pointer;
 			background-color: $main-color6;
 			box-shadow: 0px 0px 12px $main-color6;
+		}
+	}
+}
+
+@media (max-width: $breakpoint-phone) {
+	.main {
+		.socials {
+			img {
+				width: 40px;
+				height: 40px;
+			}
+		}
+		img {
+			width: 400px;
+		}
+		button {
+			margin-top: 30px;
+			width: 300px;
+			height: 60px;
+			font-size: 35px;
+		}
+	}
+}
+
+@media (max-width: $breakpoint-small-phone) {
+	.main {
+		.socials {
+			img {
+				width: 40px;
+				height: 40px;
+			}
+		}
+		img {
+			width: 350px;
+		}
+		button {
+			margin-top: 30px;
+			width: 250px;
+			height: 50px;
+			font-size: 30px;
 		}
 	}
 }

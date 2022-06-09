@@ -18,3 +18,20 @@
 		}
 	}
 }
+
+@media (max-width: $breakpoint-phone) {
+	.contact {
+		margin-top: 60px;
+		margin-left: 15px;
+		margin-bottom: 30px;
+
+		.title {
+			font-size: 30px;
+		}
+
+		img {
+			width: 45px;
+			margin-left: 10px;
+		}
+	}
+}

@@ -43,3 +43,14 @@ nav {
 		}
 	}
 }
+
+@media (max-width: $breakpoint-phone) {
+	nav {
+		display: flex;
+		justify-content: left;
+
+		img {
+			margin-left: 20px;
+		}
+	}
+}

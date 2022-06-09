@@ -8,11 +8,11 @@ const Team = () => {
       <div className="headWrapper">
         {team.heads.map(({ image, name, title }) => {
           return (
-            <div>
-              <div>
+            <div className="teamWrapper">
+              <div className="imageHolder">
                 <img src={image} alt="" />
               </div>
-              <div>
+              <div className="text">
                 <h2>{name}</h2>
                 <p>{title}</p>
               </div>

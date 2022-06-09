@@ -17,3 +17,28 @@
 		font-size: 20px;
 	}
 }
+
+@media (max-width: $breakpoint-phone) {
+	.what {
+		margin-left: 10px;
+		margin-bottom: 0px;
+
+		h1 {
+			font-size: 30px;
+		}
+		p {
+			font-size: 16px;
+		}
+	}
+}
+
+@media (max-width: $breakpoint-small-phone) {
+	.what {
+		h1 {
+			font-size: 20px;
+		}
+		p {
+			font-size: 14px;
+		}
+	}
+}

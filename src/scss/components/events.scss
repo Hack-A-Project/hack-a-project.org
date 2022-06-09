@@ -42,3 +42,28 @@
 		}
 	}
 }
+
+@media (max-width: $breakpoint-phone) {
+	.eventsContainer {
+		margin-top: 100px;
+		margin-left: 15px;
+		margin-bottom: 20px;
+		.title {
+			font-size: 30px;
+			margin-bottom: 50px;
+		}
+		.eventWrapper {
+			.date {
+				font-size: 16px;
+			}
+			.title {
+				margin-bottom: 5px;
+				font-size: 18px;
+			}
+
+			.description {
+				font-size: 16px;
+			}
+		}
+	}
+}

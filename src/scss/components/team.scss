@@ -15,7 +15,84 @@
 	.headWrapper {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-around;
+		justify-content: space-evenly;
 		margin-top: 75px;
+
+		.teamWrapper {
+			.imageHolder {
+				img {
+					border-radius: 100%;
+					width: 350px;
+					height: 350px;
+				}
+			}
+			.text {
+				text-align: center;
+				h2 {
+					font-family: 'Orbitron';
+					font-size: 30px;
+				}
+				p {
+					font-family: 'Lato';
+					font-size: 20px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: $breakpoint-phone) {
+	.teamContainer {
+		margin-top: 75px;
+
+		.title {
+			font-size: 30px;
+		}
+
+		.headWrapper {
+			margin-top: 40px;
+
+			.teamWrapper {
+				.imageHolder {
+					img {
+						height: 180px;
+						width: 180px;
+						margin-left: 30px;
+					}
+				}
+				.text {
+					h2 {
+						font-size: 18px;
+					}
+					p {
+						font-size: 15px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: $breakpoint-small-phone) {
+	.teamContainer {
+		.headWrapper {
+			.teamWrapper {
+				.imageHolder {
+					img {
+						height: 130px;
+						width: 130px;
+						margin-left: 15px;
+					}
+				}
+				.text {
+					h2 {
+						font-size: 17px;
+					}
+					p {
+						font-size: 14px;
+					}
+				}
+			}
+		}
 	}
 }
