@@ -1,4 +1,3 @@
-import React from 'react';
 import { Header, Main, What, Events, /*Sponsors,*/ FAQ, Team, Contact, Footer } from "./components"
 
 // Add prior winners list

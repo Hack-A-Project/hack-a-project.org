@@ -1,22 +1,10 @@
 {
 	"events": [
 		{
-			"date": "AUG 26, 2022",
+			"date": "September 01, 2022",
 			"title": "Club Meeting",
 			"description": "The first club meeting of the year!",
-			"link": ""
-		},
-		{
-			"date": "SEP 02, 2022 - SEP 04, 2022",
-			"title": "Hack-CSI",
-			"description": "Third annual hack-csi hackathon.",
-			"link": ""
-		},
-		{
-			"date": "SEP 09, 2022",
-			"title": "Leetcode Competition",
-			"description": "Collaborative leetcode competition.",
-			"link": ""
+			"link": "https://csi.campuslabs.com/engage/event/8264212"
 		}
 	]
 }

@@ -19,6 +19,7 @@ const FAQ = () => {
             <li>Go to the <a href="https://csi.campuslabs.com/engage/organization/hack_a_project" target="_blank" rel="noreferrer">Hack-A-Project CSI Connect Page</a></li>
             <li>Sign in with your CSI login</li>
             <li>Click JOIN</li>
+            <li><a href="https://discord.gg/nheJu2kF" target="_blank" rel="noreferrer">JOIN THE DISCORD!</a></li>
           </ol>
         </details>
         <details>
@@ -52,7 +53,7 @@ const FAQ = () => {
         </details>
         <details>
           <summary>What should I do if my question was not answered here?</summary>
-          <p>Email us at hackaprojectcsi@gmail.com</p>
+          <p>Email us at <a href="mailto:hackaprojectcsi@gmail.com">hackaprojectcsi@gmail.com</a></p>
         </details>
       </div>
     </div>
